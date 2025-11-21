@@ -31,6 +31,7 @@ jobs:
       # Mi presentación
       - name: presentación
         run: |
+          echo "Impresión de mi presentación:"
           echo "Mi nombre es: ${{ env.nombres }}"
           echo "Mi apellido es: ${{ env.apellidos }}"
           echo "Mi edad es: ${{ env.edad }}"
