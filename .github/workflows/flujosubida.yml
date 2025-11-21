@@ -51,4 +51,9 @@ jobs:
         run: |
           echo "Mi usuario es: ${{ env.user }}"
           echo "Mi contraseña es: ${{ env.password }}"
+
+       # Mis variables abiertas
+      - name: variables abiertas
+        run: |
+          echo "La versión de mi proyecto: ${{ vars.VersionDeMiProyecto}}"
           
